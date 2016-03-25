@@ -3,7 +3,7 @@ background-image:  url(  );
 
 # Node.JS 项目中的
 
-### 性能监控 和 Docker 的使用
+### 性能监控的原理 和 Docker 的使用
 
 <a href="https://github.com/wyvernnot/node-party-10">
 <img style="position: absolute; top: 0; right: 0; border: 0;"
@@ -21,7 +21,7 @@ src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f
  - 插桩
  - 采样
  - 内存
-- Docker 在 Node.JS 项目中的运用
+- Docker 在 Node.JS 项目中的使用
  - 兼容性测试
  - 分布式环境
  - 基于 Docker 的前端自动化工作流
