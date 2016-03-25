@@ -5,6 +5,27 @@
     <title>@科技寺</title>
     <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.css"/>
     <link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css"/>
+    <style>
+        .bg-black{
+            background: black;
+        }
+
+        .txt-white{
+            color:white;
+        }
+
+        .txt-orange{
+            color:orange;
+        }
+
+        div[id$=-window]{
+            position: absolute;
+            width: 2000px;
+            height: 2000px;
+            background: white;
+            opacity: .94;
+        }
+    </style>
 </head>
 <body>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -16,6 +37,18 @@
         highlightLines: 'true',
         slideNumberFormat: '第 %current% 页 / 共 %total% 页'
     });
+
+
+    $(function(){
+        $("#slide-flame").mousemove(function(e){
+            $("#left-window").css({
+                left:e.clientX-$("#slide-flame").offset().left-2002
+            })
+            $("#right-window").css({
+                left:e.clientX - $("#slide-flame").offset().left +2
+            })
+        })
+    })
 </script>
 </body>
 </html>
