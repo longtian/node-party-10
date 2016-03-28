@@ -3,3 +3,7 @@
 > 点击图片在线观看
 
 [![](./images/cover.png)](http://wyvernnot.github.io/node-party-10/#1)
+
+-----
+
+![](./images/everybody.jpg)
