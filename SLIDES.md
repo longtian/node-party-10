@@ -7,7 +7,7 @@ background-image:  url(  );
 
 <a href="https://github.com/wyvernnot/node-party-10">
 <img style="position: absolute; top: 0; right: 0; border: 0;"
-src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png">
+src="./images/forkme_right_green_007200.png" alt="Fork me on GitHub">
 </a>
 
 .text-muted[王龑 2016.03.26]
@@ -56,7 +56,7 @@ count: false
 
 ---
 class: middle,center,txt-orange
-background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/f1.jpg)
+background-image: url(./images/f1.jpg)
 
 
 # JavaScript 性能分析
@@ -206,13 +206,13 @@ Options:
 ---
 class: middle, center
 
-background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/trap.jpg)
+background-image: url(./images/trap.jpg)
 ---
 
 ### 前端埋点
 
 <div class="well">
-<img class="img-rounded" style="width:230px" src='http://7xsa3z.com1.z0.glb.clouddn.com/szj.jpg'/>
+<img class="img-rounded" style="width:230px" src='./images/szj.jpg'/>
 <h1 style="color:red">20.0</h1>
 <button class="btn btn-primary">
 <i class="fa fa-cart-plus"></i> 买买买</button>
@@ -278,7 +278,7 @@ class: center, middle
 
 class: bg-black,center
 
-![](http://7xsa3z.com1.z0.glb.clouddn.com/banana.gif)
+![](./images/banana.gif)
 
 ---
 
@@ -307,20 +307,20 @@ profiler.stopProfiling([name]);
 ```
 
 ---
-background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/cpu-mixedmode-node.svg)
+background-image: url(./images/cpu-mixedmode-node.svg)
 
 ### 输出 Flame Chart
 
 .text-muted[http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html]
 ---
 name: flame
-background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/cpu-mixedmode-node.svg)
+background-image: url(./images/cpu-mixedmode-node.svg)
 <div id="move" style="z-index:1"></div>
 <div id="left-window"></div>
 <div id="right-window"></div>
 ---
 
-background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/top_overview.png)
+background-image: url(./images/top_overview.png)
 
 ## 内存
 
@@ -336,7 +336,7 @@ heapdump.writeSnapshot(function(err, filename) {
 
 ---
 
-background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/top_all.png)
+background-image: url(./images/top_all.png)
 
 ---
 
@@ -352,11 +352,11 @@ background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/top_all.png)
 
 - `代码区`：代码对象，也就是包含JIT之后指令的对象，会被分配到这里。这是唯一拥有执行权限的内存区（不过如果代码对象因过大而放在大对象区，则该大对象所对应的内存也是可执行的。译注：但是大对象内存区本身不是可执行的内存区）。
 
-![](http://7xsa3z.com1.z0.glb.clouddn.com/inheritance.png)
+![](./images/inheritance.png)
 
 ---
 class: middle,left
-background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/gc.png)
+background-image: url(./images/gc.png)
 
 
 GC 双刃剑
@@ -393,7 +393,7 @@ count:false
 
 ---
 class: bottom
-background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/etcd.png)
+background-image: url(./images/etcd.png)
 
 
 .alert.alert-success[
@@ -404,7 +404,7 @@ docker compose scale web=15
 ---
 class: bottom
 
-background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/vis.png)
+background-image: url(./images/vis.png)
 
 
 ---
@@ -451,4 +451,4 @@ count:false
 
 ---
 
-background-image: url(http://7xsa3z.com1.z0.glb.clouddn.com/webpack.png)
+background-image: url(./images/webpack.png)
